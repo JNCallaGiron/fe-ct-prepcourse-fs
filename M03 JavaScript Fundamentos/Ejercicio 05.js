@@ -61,8 +61,7 @@ function deEuroAdolar(euro) {
    // Supongamos que 1 euro equivale a 1.20 dólares.
    // Debes calcular el valor recibido como argumento pasándolo a dolares.
    // Tu código:
-   if (euro === 1, dolar === 1.2)
-   return dolar
+   return euro * 1.2
 
 }
 
