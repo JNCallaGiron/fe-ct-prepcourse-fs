@@ -29,6 +29,9 @@ function crearInstanciaPersona(nombre, apellido, edad, domicilio) {
    // Recibirás las propiedades por parámetro.
    // Retornar la instancia creada.
    // Tu código:
+   var persona  = new Persona ( nombre,apellido,edad, domicilio)
+   return new Persona 
+   
 }
 
 function agregarMetodo() {
@@ -36,6 +39,9 @@ function agregarMetodo() {
    // Este método toma la propiedad "nombre" y "edad", y devuelve el string:
    // Ejemplo: "Juan, 22 años".
    // Tu código:
+   Persona.prototype.datos = function(){
+      return  this.nombre + ', ' + this.edad + ' años'
+   }
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
